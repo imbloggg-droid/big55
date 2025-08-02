@@ -5,7 +5,7 @@ import pandas as pd
 st.set_page_config(page_title="Big Five Football MVP", layout="wide")
 
 # Загрузка данных
-df = pd.read_csv("data/players.csv")
+df = pd.read_csv("players.csv")
 
 # Выбор игрока
 player_names = df['Name'].unique()
