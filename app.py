@@ -32,9 +32,7 @@ traits = {
 for trait, exp_field in traits.items():
     score = player_data[trait]
     explanation = player_data[exp_field]
-    st.markdown(f"**{trait}**: {score}  
-_{explanation}_")
-
+    st.markdown(f"**{trait}**: {score}  \n_{explanation}_")
 st.markdown("---")
 st.subheader("💬 Общий комментарий")
 st.markdown(player_data['Comment'])
